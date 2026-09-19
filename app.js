@@ -8,6 +8,7 @@ const todoInput = document.getElementById('todoInput');
 const todoList = document.getElementById('todoList');
 const emptyState = document.getElementById('emptyState');
 const remainingCount = document.getElementById('remainingCount');
+const clearCompletedBtn = document.getElementById('clearCompletedBtn');
 const themeToggle = document.getElementById('themeToggle');
 const themeToggleText = themeToggle.querySelector('.theme-toggle-text');
 const themeToggleIcon = themeToggle.querySelector('.theme-toggle-icon');
@@ -96,6 +97,32 @@ function updateRemainingCount(todos) {
   remainingCount.textContent = `未完成: ${remaining} 項`;
 }
 
+function updateClearCompletedButton(todos) {
+  const completedCount = todos.filter((todo) => todo.completed).length;
+  const shouldShowButton = completedCount > 0;
+
+  clearCompletedBtn.hidden = !shouldShowButton;
+  clearCompletedBtn.disabled = !shouldShowButton;
+}
+
+function clearCompletedTodos() {
+  const currentTodos = loadTodos();
+  const hasCompleted = currentTodos.some((todo) => todo.completed);
+
+  if (!hasCompleted) {
+    return;
+  }
+
+  const confirmed = window.confirm('確認要刪除所有已完成的待辦事項嗎？');
+  if (!confirmed) {
+    return;
+  }
+
+  const remainingTodos = currentTodos.filter((todo) => !todo.completed);
+  saveTodos(remainingTodos);
+  renderTodos();
+}
+
 // 根據待辦清單內容，渲染列表與空白提示。
 function renderTodos() {
   const todos = loadTodos();
@@ -160,6 +187,7 @@ function renderTodos() {
   });
 
   updateRemainingCount(todos);
+  updateClearCompletedButton(todos);
 }
 
 // 設定目前篩選條件，強調選中按鈕並重新渲染列表。
@@ -205,6 +233,8 @@ function addTodo(event) {
 // 綁定主題切換按鈕，並依照作業系統初始設定套用。
  themeToggle.addEventListener('click', toggleTheme);
  applyTheme(getPreferredTheme());
+
+clearCompletedBtn.addEventListener('click', clearCompletedTodos);
 
 // 綁定篩選按鈕，讓使用者能切換顯示內容。
 filterButtons.forEach((button) => {
