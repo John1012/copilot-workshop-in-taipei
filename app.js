@@ -80,11 +80,11 @@ function getFilteredTodos(todos) {
 // 取得篩選後為空時應顯示的提示文字。
 function getEmptyMessage() {
   if (currentFilter === 'active') {
-    return '目前沒有未完成的待辦事項';
+    return '目前沒有未完成的待辦事項。切回「全部」即可查看所有待辦。';
   }
 
   if (currentFilter === 'completed') {
-    return '目前沒有已完成的待辦事項';
+    return '目前沒有已完成的待辦事項。若剛剛取消勾選，該項目只是被篩選條件過濾掉了，不是被刪除。';
   }
 
   return '還沒有任何待辦事項,新增一個吧!';
