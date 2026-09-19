@@ -1,46 +1,33 @@
-![工作坊完成徽章](https://img.shields.io/badge/GitHub_Copilot_實戰工作坊-已完成-1F883D?style=for-the-badge&logo=githubcopilot&logoColor=white)
+<div align="center">
 
-# GitHub Copilot 實戰工作坊:Agent Mode × MCP × Agentic Workflows
+# 🎉 Congratulations John1012! 🎉
 
-[作品集說明](PORTFOLIO.md)
+<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
 
-這個專案是我在 GitHub Copilot 實戰工作坊中完成的待辦清單 Web App，使用純 HTML、CSS 與原生 JavaScript 實作，並搭配 Agent Mode、MCP 與 agentic workflow 進行開發。
+### 🌟 You've successfully completed the exercise! 🌟
 
-## 線上展示
+## 🚀 Share Your Success!
 
-- GitHub Pages: https://john1012.github.io/copilot-workshop-in-taipei/
-- 作品集: [PORTFOLIO.md](PORTFOLIO.md)
+**Show off your new skills and inspire others!**
 
-## 專案簡介
+<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22GitHub%20Copilot%20%E5%AF%A6%E6%88%B0%E5%B7%A5%E4%BD%9C%E5%9D%8A%3AAgent%20Mode%20%C3%97%20MCP%20%C3%97%20Agentic%20Workflows%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FJohn1012%2Fcopilot-workshop-in-taipei%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
+</a>
+<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22GitHub%20Copilot%20%E5%AF%A6%E6%88%B0%E5%B7%A5%E4%BD%9C%E5%9D%8A%3AAgent%20Mode%20%C3%97%20MCP%20%C3%97%20Agentic%20Workflows%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FJohn1012%2Fcopilot-workshop-in-taipei%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
+</a>
+<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22GitHub%20Copilot%20%E5%AF%A6%E6%88%B0%E5%B7%A5%E4%BD%9C%E5%9D%8A%3AAgent%20Mode%20%C3%97%20MCP%20%C3%97%20Agentic%20Workflows%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FJohn1012%2Fcopilot-workshop-in-taipei%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
+</a>
 
-這是一個可用於日常任務管理的前端應用，支援新增、勾選完成、刪除、篩選、清除已完成項目，以及使用 localStorage 讓資料在重新整理後保留狀態。整個專案不使用任何前端框架或第三方套件，保留簡潔而可維護的純前端架構。
+### 🎯 What's Next?
 
-## 功能
+**Keep the momentum going!**
 
-- 新增待辦事項
-- 勾選或取消已完成狀態
-- 刪除單一項目
-- 依全部 / 未完成 / 已完成篩選
-- 清除所有已完成項目
-- 即時更新未完成數量
-- 深色 / 淺色主題切換
-- 使用 localStorage 保存資料與主題偏好
+[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/John1012/copilot-workshop-in-taipei/issues/1)
+[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills)
 
-## 技術
+*There's no better way to learn than building things!* 🚀
 
-- HTML
-- CSS
-- 原生 JavaScript
-- GitHub Pages 靜態部署
-- localStorage 資料持久化
+</div>
 
-## 開發方式
-
-本專案的開發過程以 GitHub Copilot Agent Mode 為核心，透過 AI 協助撰寫前端基礎結構、修正需求變更與處理錯誤，並利用 MCP 連接官方文件與 GitHub 訊息，讓開發流程更接近真實專案協作。除此之外，.github/prompts 中的 task workflow 讓重複性的修正步驟可重用，進一步提升效率與可追蹤性。
-
-## 完成狀態
-
-- 已完成待辦清單核心功能
-- 已建立作品集說明
-- 已部署至 GitHub Pages
-- 已完成工作坊最終成果交付
